@@ -194,23 +194,5 @@ def MutexExit():
     #print '\nClosing Listening Socket\n'
     #listeningSocket.close()
     #if DEBUG: print 'Exiting --> MutexExit\n'
-    #Stores the information of the local process
-    """
-    localInfo = { 
-                    'procName':         None,
-                    'procPID':          None,   
-                    'procState':        None,   
-                    'procTimestamp':    None,   
-                    'procAddr':         None,   
-                    'procRemotes':      None 
-                }
-
-    defferedQueue = []  #Waiting to reply too
-    replyQueue    = []  #Awaiting replies from
-    msgThread = None
-    listeningSocket = None
-
-    remoteAddresses = { } #Store the addresses of the other processes
-    """
 
     return True
